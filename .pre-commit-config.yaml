@@ -1,0 +1,6 @@
+repos:
+- repo: git://github.com/xieaoran/pre-commit-golang
+  rev: v0.3.6
+  hooks:
+    - id: go-fmt
+    - id: go-imports
